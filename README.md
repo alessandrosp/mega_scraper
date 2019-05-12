@@ -2,6 +2,8 @@
 
 Command-line tool to recursively download images from a given website.
 
+![](https://github.com/annoys-parrot/mega_scraper/blob/master/mega_scraper.png?raw=true)
+
 The command below would download any single picture on the site https://mugshots.com/.
 
 `python mega_scraper.py -s https://mugshots.com/`
@@ -16,7 +18,7 @@ A full list of flags can be found below.
 
 In order to use MegaScraper you'll need to install all its dependencies. The easiest way to do so is to follow these steps:
 
-1. Download the package from https://github.com/.
+1. Download the package from [GitHub](https://github.com/annoys-parrot/mega_scraper).
 1. Use virtualenv to create virtual enviroment: `virtualenv -p python3 venv`.
 1. Activate the virtual enviroment: `source venv/bin/activate`
 1. Install the requirements: `pip install -r requirements.txt`.
@@ -34,11 +36,11 @@ scraper.scrape(max_pages=10)
 scraper.download(how_many=100)
 ```
 
-Note however that MegaScraper is not currently on PyPI so you won't be able to install via `pip`. Just download `mega_scraper.py` from GitHub.
+Note however that MegaScraper is not currently on PyPI so you won't be able to install via `pip`. Just download `mega_scraper.py` from [GitHub](https://github.com/annoys-parrot/mega_scraper).
 
 ## Flags
 
-Below you can find a list of all flags currently supported by MegaScraper. You can find additional and more granular documentation in the `mega_scraper.py` file itselt.
+Below you can find a list of all flags currently supported by MegaScraper. You can find additional and more granular documentation in the [`mega_scraper.py`](https://github.com/annoys-parrot/mega_scraper/blob/master/mega_scraper.py) file itself.
 
 - `--seed` or `-s` to specify the seed URL. It's the only non-optional flag.
 - `--regex_pages` or `-rp` to specify from which pages to download images.
