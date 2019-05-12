@@ -159,7 +159,7 @@ class MegaScraper(object):
             max_pages: the maximum number of pages to scrape URLs from.
 
         Returns:
-            Set of string, each being the URL of an image. If scrape()
+            Set of strings, each being the URL of an image. If scrape()
             is called twice, the sets are going to be different as
             MegaScraper() memorizes what URLs have been returned before.
         """
