@@ -21,7 +21,7 @@ In order to use MegaScraper you'll need to install all its dependencies. The eas
 1. Download the package from [GitHub](https://github.com/annoys-parrot/mega_scraper).
 1. Use virtualenv to create virtual enviroment: `virtualenv -p python3 venv`.
 1. Activate the virtual enviroment: `source venv/bin/activate`
-1. Install the requirements: `pip install -r requirements.txt`.
+1. Install the [requirements](https://github.com/annoys-parrot/mega_scraper/blob/master/requirements.txt): `pip install -r requirements.txt`.
 
 That's it.
 
